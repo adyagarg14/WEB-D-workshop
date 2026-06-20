@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("download\ \(66\).jpg") ;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px 40px;
+    background-color:#031724; ;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-image: url("");
+    image-rendering: auto;
+}
+
+.logo{
+    color: white;
+    font-size: 50px;
+    
+    font-weight: bold;
+}
+p{
+    font-size: 16px;
+    color: beige;
+    
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: auto;
+    
+}
+
+.nav-links a{
+    text-decoration: underline;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    
+}
+
+.nav-links a:hover{
+    color: #3b82f6;
+}
+section{
+    padding: 10px 20px; ;
+}
+h1{
+    font-size: 100px;
+    color: #a1adb5;
+    font: weight 500px;
+    font-style: oblique ;
+}
+h2{
+    font-size: 80px;
+    font-style: oblique;
+    color: #4c6489;
+    list-style: radial-gradient();
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-size: 20px;
+    color: #a1adb5;
+}
+h4{
+    font-weight: 400px;
+    font-size: 40px;
+     color: #6194b7;
+}
+#name{
+    background-color: antiquewhite;
+    color:black;
+    font-size: medium;
+}
+#Email{
+    background-color:antiquewhite;
+    color:black;
+    font-size: medium;
+}
+#text{
+    background-color: antiquewhite;
+    color: black;
+   font-size: medium;
+}
+.footer{
+    background-color: #031724;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+.footer h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer p{
+    margin: 10px 0;
+}
+
+.social-links{
+    margin: 15px 0;
+}
+
+.social-links a{
+    color: #3b82f6;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.social-links a:hover{
+    color: white;
+}
+img{
+    width: 200px;
+    border: radius 10px;
+    color: #a1adb5;
+}
